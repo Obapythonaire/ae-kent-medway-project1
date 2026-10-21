@@ -13,7 +13,7 @@ NHS England, *A&E Attendances and Emergency Admissions*, September 2026 (publish
 4. Built a PivotTable for the Kent and Medway ICB with calculated fields for Type 1 and all-types percentages, and filtered to providers that have Type 1 attendances.
 5. Made one chart and wrote a one-page glossary of the terms I met.
 
-## Data traps I found
+## Data Gaps I found
 - The source sheet has an England total row and a blank row above the providers.
 - Region names have trailing spaces, which break filters and lookups.
 - The ICB mapping sheet contains duplicate organisation codes, so a plain join returns more rows than there are providers.
@@ -39,6 +39,3 @@ Excel (tables, XLOOKUP, PivotTable with calculated fields, charts).
 - [`glossary.md`](glossary.md): one-page glossary of NHS terms
 - [`imgs/chart_kent_type1.png`](imgs/chart_kent_type1.png): the four-hour performance chart
 - [`data/September-26-AE-by-provider-B5lUR.xls`](data/September-26-AE-by-provider-B5lUR.xls): original NHS England raw data file
-
-## Next
-Project 1 repeats the analysis in SQL Server (Weeks 2 and 3) and then adds 12 months of data in Power BI.
