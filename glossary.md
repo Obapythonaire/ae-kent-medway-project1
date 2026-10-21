@@ -1,0 +1,19 @@
+# A&E and NHS performance glossary
+
+Project 1, Week 1. A&E definitions checked against NHS England, *A&E Attendances and Emergency Admissions Monthly Return Definitions v5.0 (August 2020)*. Terms marked \* are my own plain-English wording and still need checking against the source named in my notes.
+
+| Term | Meaning | Why it matters |
+|---|---|---|
+| A&E four-hour standard | Of all attendances, the share where the patient was admitted, transferred or discharged within four hours of arriving. The clock starts on arrival and stops when they leave the department. A wait of 04:00:01 or more counts as a breach. | The headline measure of how well patients flow through urgent care. A low figure usually points to a hold-up further along, such as no free beds. |
+| Type 1, 2 and 3 departments | Type 1: consultant-led, 24-hour A&E with full resuscitation (my focus).<br>Type 2: consultant-led single-specialty service, for example eye or dental.<br>Type 3: urgent treatment centres, GP-led and bookable through 111 or a GP. | Mixing them gives unfair comparisons. A walk-in centre scores near 100%, a major hospital does not. I compare like with like, hence Type 1 alone. |
+| ODS code | Organisation Data Service code. A short code that uniquely identifies one NHS organisation, for example RWF for Maidstone and Tunbridge Wells. | The safe way to join datasets. Names change and have typos, codes do not. |
+| Provider, trust, ICB, region | Provider: the organisation delivering care. Trust: its legal form, such as an NHS trust. ICB: the Integrated Care Board that plans services for a local area. Region: one of the NHS England regions. | Needed to roll data up and compare. In my pivot, MTW is a provider in the Kent and Medway ICB. |
+| Referral to Treatment (RTT)\* | The time from a referral until treatment starts. Patients still waiting are called incomplete pathways. Reports show those waiting over 18 weeks and over 52 weeks. | The core waiting-list measure and the basis for Project 2. |
+| Cancer waiting time standards\* | Measures of how quickly a patient with suspected cancer is told the result (28-day Faster Diagnosis Standard) and starts treatment (31-day and 62-day standards). | A frequent interview topic, and it shows how targets drive hospital behaviour. |
+| Diagnostic waits\* | How long patients wait for tests such as MRI, CT and endoscopy. NHS England collects this monthly for 15 key tests, and the 6-week point matters most. | Delays here hold up the RTT 18-week pathway and surgical care. |
+| Elective activity | Planned care, such as surgery booked in advance, as opposed to emergencies. | Links to my ward. Emergency pressure can cancel or delay elective operations. |
+| Emergency admission | An A&E attendance that ends with the patient admitted to hospital through the emergency route. | Connects A&E pressure to bed availability and discharge. |
+| HES (Hospital Episode Statistics)\* | Patient-level records of hospital activity in England, held nationally. Analysts get it as extracts, not as public monthly tables. | A major national source for analysis. Real patient-level data needs approval, so I use public aggregates. |
+| Urgent Treatment Centre (UTC) | A Type 3 service: GP-led, open at least 12 hours a day, with appointments bookable through 111 or a GP referral. | Explains why some providers in my file have no Type 1 attendances. |
+| 12 hours from arrival | A separate measure of patients who spent over 12 hours in A&E. NHS England states it applies to Type 1 and Type 2 attendances only. | Shows the longest waits that the four-hour figure hides. |
+| Booked and non-booked attendances\* | Booked: the patient had an appointment, for example via 111. Non-booked: they walked in or arrived by ambulance. They appear on separate sheets in the monthly file. | A single total can hide two different kinds of demand. |
