@@ -26,16 +26,6 @@ NHS England, *A&E Attendances and Emergency Admissions*, September 2026 (publish
 
 ![Chart](imgs/chart_kent_type1.png)
 
-### Kent and Medway Acute Trusts Summary (September 2026)
-
-| Acute Trust | Type 1 Attendances | Seen within 4 hrs | Type 1 Performance (%) | All-Types Performance (%) |
-| :--- | :---: | :---: | :---: | :---: |
-| Dartford and Gravesham NHS Trust | 12,375 | 9,198 | **74.3%** | 80.1% |
-| Maidstone and Tunbridge Wells NHS Trust (MTW) | 21,697 | 15,826 | **72.9%** | 74.9% |
-| Medway NHS Foundation Trust | 10,582 | 7,375 | **69.7%** | 75.6% |
-| East Kent Hospitals University NHS Foundation Trust | 13,689 | 6,974 | **50.9%** | 72.1% |
-| **Kent & Medway Acute Total (Type 1 Providers)** | **58,343** | **39,373** | **67.5%** | **75.2%** |
-
 **Reading the pivot totals:** the pivot grand total (84,148 attendances, 75.2% all types) covers only the four providers with Type 1 departments, because the others were filtered out. It is not the Kent and Medway ICB total (79.3% all types, which includes the walk-in and community services).
 
 ## Caveats
@@ -45,10 +35,10 @@ This is a single month, so it shows a snapshot, not a trend. Type 1 and all-type
 Excel (tables, XLOOKUP, PivotTable with calculated fields, charts).
 
 ## Files
-- [`ae_analysis_sep2026.xlsx`](ae_analysis_sep2026.xlsx): the complete Excel analysis workbook (cleaned data, XLOOKUP summary model, and PivotTable)
-- [`glossary.md`](glossary.md): one-page reference glossary of NHS performance metrics and data definitions
-- [`imgs/chart_kent_type1.png`](imgs/chart_kent_type1.png): Type 1 four-hour performance comparison chart
-- [`data/September-26-AE-by-provider-B5lUR.xls`](data/September-26-AE-by-provider-B5lUR.xls): raw source file published by NHS England
+- [`ae_analysis_sep2026.xlsx`](ae_analysis_sep2026.xlsx): the complete Excel analysis workbook
+- [`glossary.md`](glossary.md): one-page glossary of NHS terms
+- [`imgs/chart_kent_type1.png`](imgs/chart_kent_type1.png): the four-hour performance chart
+- [`data/September-26-AE-by-provider-B5lUR.xls`](data/September-26-AE-by-provider-B5lUR.xls): original NHS England raw data file
 
 ## Next
 Project 1 repeats the analysis in SQL Server (Weeks 2 and 3) and then adds 12 months of data in Power BI.
